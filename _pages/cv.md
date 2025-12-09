@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
+[Download my CV]<a href="{{'/assets/CV.pdf'|relative_url|}}">CV</a>
 
 
 **Email:** [lme59@cornell.edu](mailto:lme59@cornell.edu) | | | **Phone:** +1 347 874 1557 
@@ -72,4 +72,5 @@ Aspiring engineering student with a strong foundation in mechanical design and p
 Available upon request.
 
 ---
+
 
