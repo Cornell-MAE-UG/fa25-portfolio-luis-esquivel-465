@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: Luis Esquivel - Curriculum Vitae
 permalink: /cv/
 ---
 ## Curriculum Vitae
