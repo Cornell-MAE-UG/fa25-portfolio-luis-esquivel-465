@@ -8,23 +8,23 @@ permalink: /cv/
 [Download my CV]({{ "/assets/CV.pdf" | relative_url }}) in PDF format.
 
 
-**Email:** [netID@cornell.edu](mailto:netID@cornell.edu) | | | **Phone:** +123 456 7890
+**Email:** [lme59@cornell.edu](mailto:lme59@cornell.edu) | | | **Phone:** +1 347 874 1557 
 
 ---
 
 #### Objective
-Aspiring engineering student with a strong foundation in.... Passionate about ... and eager to apply my knowledge in real-world applications.
+Aspiring engineering student with a strong foundation in mechanical design and prototyping. Passionate about robotics and eager to apply my knowledge in real-world applications.
 
 ---
 
 #### Education
 - **Cornell University**  
   *Bachelor of Science in Mechanical and Aerospace Engineering*  
-  GPA: 3.8/4.0 | Graduation: Month, Year
+  Graduation: May, 2027
 
-- **[High School Name]**  
+- **Saint Joseph by-the-Sea High School**  
   *High School Diploma*  
-  Graduation: [Month, Year]
+  Graduation: May, 2023
 
 ---
 
@@ -72,3 +72,4 @@ Aspiring engineering student with a strong foundation in.... Passionate about ..
 Available upon request.
 
 ---
+
