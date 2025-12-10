@@ -1,0 +1,127 @@
+---
+layout: project
+title: Torque Wrench Final Design – MAE 3270
+description: Custom Ti-6Al-4V torque wrench designed for 600 in-lbf with FEM-based strain gauge instrumentation.
+technologies: [ANSYS, Autodesk Fusion, MATLAB, Strain Gauges]
+image: /assets/images/torque-cad-key-dims.png
+permalink: /projects/2025-torque-wrench/
+---
+
+For my MAE 3270 final project, I designed and analyzed a non-ratcheting 3/8" torque wrench constructed from **Ti-6Al-4V**. The goal was to develop a handle that could safely carry a rated torque of **600 in-lbf** while providing measurable strain at a dedicated gauge section for torque sensing.
+
+---
+
+## 1. CAD Model and Geometry
+
+The handle was modeled with a simple rectangular cross-section to balance stiffness, manufacturability, and strain-gauge bonding area.
+
+- Thickness: **b = 0.50 in**  
+- Width: **h = 0.50 in**  
+- Overall length: **L = 18 in**  
+- Gauge offset from drive center: **c ≈ 0.0001 in**
+
+![CAD model with key dimensions]({{ "/assets/images/torque-cad-key-dims.png" | relative_url }}){: .inline-image-r style="width: 260px"}
+
+This geometry provides a prismatic region where strain gauges can be aligned with the bending axis and wired cleanly along the handle.
+
+---
+
+## 2. Material and Relevant Mechanical Properties
+
+The torque wrench handle is machined from **Ti-6Al-4V (Grade 5 titanium)**, chosen for its high strength-to-weight ratio and good fatigue performance.
+
+Relevant properties used in the analysis:
+
+- Elastic modulus: **E = 16×10⁶ psi**  
+- Poisson’s ratio: **ν = 0.32**  
+- Ultimate tensile strength: **σᵤ ≈ 138 ksi**  
+- Fracture toughness: **K_IC ≈ 38 ksi·√in**  
+- Fatigue strength at 10⁶ cycles: **S_fatigue ≈ 60 ksi**
+
+These properties confirm that the design operates with an acceptable factor of safety under the rated torque and expected cyclic loading.
+
+---
+
+## 3. Loads, Boundary Conditions, and FEM Setup
+
+The wrench was modeled as a cantilevered beam in a static structural FEM analysis. The square drive at the head was treated as a fixed support, and an equivalent tip load was applied at the handle to replicate the design torque.
+
+- Rated torque: **M = 600 in-lbf**  
+- Equivalent end load: **F = 33.33 lbf** (applied at the grip)  
+- Boundary condition: **fully fixed** at the drive interface  
+- Typical mesh size in the handle: **0.1 in elements**
+
+![FEM load and boundary conditions]({{ "/assets/images/torque-fem-bc.png" | relative_url }}){: .inline-image-l style="width: 260px"}
+
+This setup captures bending stresses and strains in the gauge region while resolving 3D stress concentrations at the fixed boundary.
+
+---
+
+## 4. Normal Strain Contours (Gauge Direction)
+
+Strain was evaluated along the gauge axis in the constant cross-section region where strain gauges would be bonded.
+
+- Axial strain at the gauge location: **ε ≈ 871 µε**
+
+![Normal strain contours in gauge direction]({{ "/assets/images/torque-strain-contour.png" | relative_url }}){: .inline-image-r style="width: 260px"}
+
+The FEM strain field confirms that the gauge section experiences a clean bending-dominated strain state suitable for accurate measurement.
+
+---
+
+## 5. Maximum Principal Stress from FEM
+
+The maximum stresses occur near the fixed drive end where bending moments and geometry transitions cause local concentrations.
+
+- Maximum principal stress anywhere: **σ_max ≈ 72.4 ksi**  
+- Normal stress at gauge location: **σ_gauge ≈ 13.9 ksi**
+
+![Maximum principal stress contours]({{ "/assets/images/torque-max-principal-stress.png" | relative_url }}){: .inline-image-l style="width: 260px"}
+
+These results show that the design remains below the material’s ultimate strength while maintaining a reasonable margin before fatigue and fracture limits.
+
+---
+
+## 6. Summary of FEM Results
+
+A concise summary of the key FEM outputs is shown below:
+
+| Quantity                                | Result       |
+|----------------------------------------|--------------|
+| Maximum principal stress (anywhere)    | **72.4 ksi** |
+| Normal stress at gauge location        | **13.88 ksi** |
+| Load-point deflection                  | **0.8796 in** |
+| Axial strain at gauge location         | **≈ 871 µε**  |
+
+Beam-theory hand calculations predicted about **28.8 ksi** at the root and a deflection of **0.778 in**.  
+The FEM results are higher, capturing 3D stress concentrations and realistic boundary stiffness that simple beam theory neglects.
+
+---
+
+## 7. Torque Wrench Sensitivity (mV/V)
+
+Using the FEM strain at the gauge section and a half-bridge strain-gauge configuration, the torque wrench behaves as an electrical sensor:
+
+- Gauge factor: **GF = 2.0**  
+- Bridge configuration: **half-bridge (tension + compression)**  
+- Applied torque: **600 in-lbf**  
+- Predicted output sensitivity: **≈ 0.871 mV/V**
+
+Although this is slightly below the 1.0 mV/V target, it demonstrates that the design is already in a usable range, with clear paths to improve sensitivity (e.g., geometry changes to increase strain at the gauge section).
+
+---
+
+## 8. Strain Gauge Selection and Placement
+
+The handle geometry was chosen to comfortably fit a pair of foil strain gauges in a half-bridge configuration at the gauge section.
+
+- Gauge type: **uniaxial foil strain gauges**  
+- Gauge length: **3–5 mm**  
+- Configuration: **half-bridge** (one gauge in tension, one in compression)  
+- Mounting surface: **flat 0.50 in × 0.50 in cross-section**
+
+The flat, prismatic region around the gauge location provides enough surface area for proper bonding, lead routing, and strain alignment, ensuring reliable measurements during torque application.
+
+---
+
+Overall, this project integrated **CAD**, **finite element analysis**, and **strain-gauge instrumentation** into a single mechanical sensing system, demonstrating both structural adequacy and measurable electromechanical response for torque measurement.
