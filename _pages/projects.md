@@ -1,18 +1,22 @@
 ---
 layout: default
-title: Luis Esquivel - Portfolio
+title: Projects
 permalink: /projects/
 ---
 
-<div class="gallery-container">
-<div class="project-gallery">
-    {% for project in site.projects %}
-      <div class="gallery-item">
-        <a href="{{ project.url | relative_url }}">
-          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" />
-          <p>{{ project.title}}</p>
-        </a>
-      </div>
-    {% endfor %}
-</div>
-</div>
+## Projects
+
+Here are some of my engineering projects:
+
+{% for project in site.projects %}
+### [{{ project.title }}]({{ project.url | relative_url }})
+
+{{ project.description }}
+
+{% if project.image %}
+![{{ project.title }}]({{ project.image | relative_url }}){: .inline-image-r style="width: 220px"}
+{% endif %}
+
+---
+
+{% endfor %}
