@@ -3,7 +3,7 @@ layout: project
 title: Torque Wrench Final Design – MAE 3270
 description: Custom Ti-6Al-4V torque wrench designed for 600 in-lbf with FEM-based strain gauge instrumentation.
 technologies: [ANSYS, Autodesk Fusion, MATLAB, Strain Gauges]
-image: /assets/images/torque-cad-key-dims.png
+image: /assets/images/Torque_Wrench_SS.png
 permalink: /projects/2025-torque-wrench/
 ---
 
