@@ -51,7 +51,7 @@ The wrench was modeled as a cantilevered beam in a static structural FEM analysi
 - Boundary condition: **fully fixed** at the drive interface  
 - Typical mesh size in the handle: **0.1 in elements**
 
-![FEM load and boundary conditions]({{ "/assets/images/torque-fem-bc.png" | relative_url }}){: .inline-image-l style="width: 260px"}
+![FEM load and boundary conditions]({{ "/assets/images/Torque_Wrench_SS.png" | relative_url }}){: .inline-image-l style="width: 260px"}
 
 This setup captures bending stresses and strains in the gauge region while resolving 3D stress concentrations at the fixed boundary.
 
@@ -63,8 +63,6 @@ Strain was evaluated along the gauge axis in the constant cross-section region w
 
 - Axial strain at the gauge location: **ε ≈ 871 µε**
 
-![Normal strain contours in gauge direction]({{ "/assets/images/torque-strain-contour.png" | relative_url }}){: .inline-image-r style="width: 260px"}
-
 The FEM strain field confirms that the gauge section experiences a clean bending-dominated strain state suitable for accurate measurement.
 
 ---
@@ -75,8 +73,6 @@ The maximum stresses occur near the fixed drive end where bending moments and ge
 
 - Maximum principal stress anywhere: **σ_max ≈ 72.4 ksi**  
 - Normal stress at gauge location: **σ_gauge ≈ 13.9 ksi**
-
-![Maximum principal stress contours]({{ "/assets/images/torque-max-principal-stress.png" | relative_url }}){: .inline-image-l style="width: 260px"}
 
 These results show that the design remains below the material’s ultimate strength while maintaining a reasonable margin before fatigue and fracture limits.
 
