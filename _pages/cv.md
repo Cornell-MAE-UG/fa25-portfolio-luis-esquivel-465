@@ -5,7 +5,7 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-[Download my CV](https://github.com/Cornell-MAE-UG/fa25-portfolio-luis-esquivel-465/main/assets/CV.pdf)
+[Download my CV](https://raw.githubusercontent.com/Cornell-MAE-UG/fa25-portfolio-luis-esquivel-465/main/assets/CV.pdf)
 
 
 **Email:** [lme59@cornell.edu](mailto:lme59@cornell.edu) | | | **Phone:** +1 347 874 1557 
@@ -72,6 +72,7 @@ Aspiring engineering student with a strong foundation in mechanical design and p
 Available upon request.
 
 ---
+
 
 
 
