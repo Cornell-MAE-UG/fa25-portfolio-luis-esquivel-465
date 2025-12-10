@@ -3,7 +3,7 @@ layout: project
 title: Electric Tea Kettle Thermodynamic Analysis
 description: Multi-page thermodynamics project analyzing energy flows, efficiencies, and transient heating behavior in an electric tea kettle.
 technologies: [Thermodynamics, Energy Balances, Heat Transfer]
-image: /assets/images/tea-kettle-thumbnail.png  # Optional thumbnail
+image: /assets/images/tea-kettle-thumbnail.png  
 permalink: /projects/2025-tea-kettle/
 ---
 
@@ -24,12 +24,3 @@ The full multi-page report (with equations, plots, and analysis) is available he
 - Evaluated steady-state vs transient behavior  
 - Conducted experimental validation with temperature vs time data  
 
----
-
-## Preview Image (Optional)
-
-If you upload a thumbnail image, you can show it here:
-
-![Tea kettle thermodynamics project preview]({{ "/assets/images/tea-kettle-thumbnail.png" | relative_url }})
-
-If you don’t want any images, you can delete the image lines above.
