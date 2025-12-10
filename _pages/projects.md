@@ -8,15 +8,17 @@ permalink: /projects/
 
 Here are some of my engineering projects:
 
+<div class="projects-grid">
 {% for project in site.projects %}
-### [{{ project.title }}]({{ project.url | relative_url }})
-
-{{ project.description }}
-
-{% if project.image %}
-![{{ project.title }}]({{ project.image | relative_url }}){: .inline-image-r style="width: 220px"}
-{% endif %}
-
----
-
+  <article class="project-card">
+    <a href="{{ project.url | relative_url }}">
+      {% if project.image %}
+      <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+      {% endif %}
+      <h3>{{ project.title }}</h3>
+    </a>
+    <p>{{ project.description }}</p>
+  </article>
 {% endfor %}
+</div>
+
