@@ -35,9 +35,6 @@ The hand mixer contains several key dynamic elements:
 - **Switching mechanism** → discrete speed increments  
 - **Housing constraints** → fixed supports and bearings  
 
-![Hand mixer internal components]({{ "/assets/images/hand-mixer-thumbnail.png" | relative_url }})
-
-(If you'd like, I can edit or create a better thumbnail image from your photos.)
 
 ---
 
