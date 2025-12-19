@@ -7,13 +7,13 @@ image: /assets/images/weed-whacker-thumbnail.png
 permalink: /projects/2025-weed-whacker-carburetor/
 ---
 
-For this Fluid Mechanics project, I dissected a small two-stroke weed whacker and analyzed how its **carburetor** meters fuel into the airflow using the **Venturi effect**. The objective was to connect the physical components (throttle plate, venturi throat, jets, and fuel passages) to the governing fluid mechanics: pressure–velocity relationships, losses, and mixture formation.
+For this Fluid Mechanics project, my team and I dissected a small two-stroke weed whacker and analyzed how its **carburetor** meters fuel into the airflow using the **Venturi effect**. The objective was to connect the physical components (throttle plate, venturi throat, jets, and fuel passages) to the governing fluid mechanics: pressure–velocity relationships, losses, and mixture formation.
 
 ---
 
 ## Video Walkthrough (YouTube)
 
-[Watch the full dissection + analysis on YouTube]((https://www.youtube.com/watch?v=ayXWChBD-kg))
+[Watch the full dissection + analysis on YouTube](https://www.youtube.com/watch?v=ayXWChBD-kg)
 
 ---
 
