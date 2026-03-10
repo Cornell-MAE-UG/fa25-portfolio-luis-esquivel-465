@@ -27,4 +27,4 @@ This problem helped me better understand how conduction, internal heat generatio
 - Thermal conductivity of Wall A: **150 W/m·K**
 
 ## Project File
-[View full homework PDF(/assets/Heat-Transfer-Portfolio-Assignment.pdf)
+[View full homework PDF(/assets/pdfs/Heat-Transfer-Portfolio-Assignment.pdf)
