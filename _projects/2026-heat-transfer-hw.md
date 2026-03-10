@@ -1,3 +1,11 @@
+---
+layout: project
+title: Composite Wall Heat Transfer Analysis
+description: Analytical solution of steady-state heat transfer through a composite wall with internal heat generation and convective cooling.
+technologies: [Heat Transfer, Conduction, Convection, Energy Balance, Thermal Analysis]
+image: /assets/images/heat-transfer-wall.png
+permalink: /projects/2026-composite-wall-heat-transfer/
+---
 # Heat Transfer Through a Composite Wall with Internal Heat Generation
 
 ## Overview
