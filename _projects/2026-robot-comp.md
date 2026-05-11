@@ -8,7 +8,7 @@ permalink: /projects/2026-autonomous-robot-competition/
 ---
 
 ## Overview
-In this project, my team designed and built an autonomous robot for a competitive block collection challenge in MAE 3780. The robot was designed around a simple but effective passive mechanical strategy that allowed it to funnel blocks inward while navigating the course using color sensing and programmed movement logic. My primary contributions focused on manufacturing and assembling the robot, refining the mechanical design through multiple iterations, and helping develop the overall collection strategy used during competition. :contentReference[oaicite:0]{index=0}
+In this project, my team designed and built an autonomous robot for a competitive block collection challenge in MAE 3780. The robot was designed around a simple but effective passive mechanical strategy that allowed it to funnel blocks inward while navigating the course using color sensing and programmed movement logic. My primary contributions focused on manufacturing and assembling the robot, refining the mechanical design through multiple iterations, and helping develop the overall collection strategy used during competition. 
 
 ## What I Did
 - Manufactured and assembled the robot structure and collection system
@@ -20,9 +20,9 @@ In this project, my team designed and built an autonomous robot for a competitiv
 - Worked on integrating the mechanical system with the drive and sensing hardware
 
 ## Manufacturing and Strategy Focus
-A major focus of my work was the physical manufacturing and iterative improvement of the robot. Our team intentionally pursued a simpler passive mechanical design rather than a more complex active collection system. The robot used angled arms and a front sled to funnel blocks toward the wheelbase for collection while minimizing mechanical complexity. Through several design iterations, we expanded the arm coverage and optimized the geometry to maximize block control within the competition size constraints. :contentReference[oaicite:1]{index=1}
+A major focus of my work was the physical manufacturing and iterative improvement of the robot. Our team intentionally pursued a simpler passive mechanical design rather than a more complex active collection system. The robot used angled arms and a front sled to funnel blocks toward the wheelbase for collection while minimizing mechanical complexity. Through several design iterations, we expanded the arm coverage and optimized the geometry to maximize block control within the competition size constraints. 
 
-On the strategy side, I helped develop the robot’s competition approach and movement plan. The robot was programmed to detect color transitions on the board, sweep across the center line, detect borders, and reposition itself for additional block collection opportunities. Our strategy emphasized reliability, simplicity, and maximizing coverage of the playing field. :contentReference[oaicite:2]{index=2}
+On the strategy side, I helped develop the robot’s competition approach and movement plan. The robot was programmed to detect color transitions on the board, sweep across the center line, detect borders, and reposition itself for additional block collection opportunities. Our strategy emphasized reliability, simplicity, and maximizing coverage of the playing field. 
 
 ## What I Learned
 This project strengthened my hands-on manufacturing experience and taught me how iterative prototyping improves robot performance. I learned how mechanical simplicity can often outperform more complicated systems when reliability and consistency are important. I also gained experience balancing manufacturing constraints, strategy development, and real-world testing under competition conditions.
@@ -39,7 +39,7 @@ Additionally, the project improved my understanding of:
 - Implemented a passive block collection system using custom PLA components
 - Successfully integrated color sensing, motor control, and navigation logic
 - Achieved reliable block collection and center-line traversal during competition
-- Finished competition play with a 3–4 record and neutral block differential :contentReference[oaicite:3]{index=3}
+- Finished competition play with a 3–4 record and neutral block differential 
 
 ## Project File
 [View Full Robot Competition Report](/assets/MAE3780_Robot_Report.pdf)
